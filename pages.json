@@ -1,0 +1,387 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		 
+	    {
+            "path" : "pages/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false,"bounce": "none"  } 
+            }
+            
+        },
+		{"path" : "pages/index/show",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"bounce": "none" , 
+				"app-plus": {
+				"bounce": "none" , 
+					 "titleNView": false
+				} 
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/theme",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+		    }
+		    
+		}
+       
+        ,{
+            "path" : "pages/index/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "app-plus": {"titleNView": false} 
+            }
+            
+        },
+		{
+		    "path" : "pages/index/myself",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+		        "app-plus": {"titleNView": false} 
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/setting",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+		        
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/index/search",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+		        "app-plus": {"titleNView": false} 
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/index/tag",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false,"bounce": "none"  } 
+		        
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/find",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		        
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/register",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+		        
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/mysave",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的收藏",
+		        "enablePullDownRefresh": false,
+				   "app-plus": {"titleNView": false} 
+		        
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/mylike",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的点赞",
+		        "enablePullDownRefresh": false,
+				   "app-plus": {"titleNView": false} 
+		        
+		    }
+		    
+		},
+		
+		{
+		    "path" : "pages/index/newtheme",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新主题",
+		        "enablePullDownRefresh": false,
+		        "app-plus": {"titleNView": false} 
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/index/heself",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+				
+            }
+            
+        }
+		,{
+		    "path" : "pages/index/message",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+				
+		    }
+		    
+		},
+		 {
+		        "path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+		        "style": {
+		            "disableScroll": true,
+		            "app-plus": {
+		                "backgroundColorTop": "transparent",
+		                "background": "transparent",
+		                "titleNView": false,
+		                "scrollIndicator": false,
+		                "popGesture": "none",
+		                "animationType": "fade-in",
+		                "animationDuration": 200
+		
+		            }
+				}
+		}
+        ,{
+            "path" : "pages/index/changepassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/findpassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/findpassword1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/outpage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/index/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/shenfen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+					"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/userhead/userhead",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/index/myheadborder/myheadborder",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+					"app-plus": {"titleNView": false} 
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/index/reply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/themelist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/images/images",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "浏览历史",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/myinfo/myinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的信息",
+                "enablePullDownRefresh": false,
+					"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/myattention",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的关注",
+                "enablePullDownRefresh": false,
+					"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/myfans",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的粉丝",
+                "enablePullDownRefresh": false,
+					"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/myself1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }     ,{
+            "path" : "pages/index/skin/skin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/themes/themes",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false} 
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+					// 将回弹属性关掉
+			"bounce": "none",
+			"scrollIndicator": "none"
+		
+		}
+
+	}
+
+}
